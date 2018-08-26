@@ -1,0 +1,19 @@
+ip: 192.168.10.10
+memory: 1024
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: ~/LaravelBoilerplate-Backend
+        to: /home/vagrant/code
+sites:
+    -
+        map: laravel-boilerplate.test
+        to: /home/vagrant/code/public
+databases:
+    - laravel-boilerplate
+name: laravelboilerplate-backend
+hostname: laravelboilerplate-backend
