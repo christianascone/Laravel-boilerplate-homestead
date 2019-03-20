@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d8b1f316960f3fd661438983fadee0f5",
+    "content-hash": "ef50e897acf057f7c567841a80fe6c5c",
     "packages": [
         {
             "name": "appstract/laravel-blade-directives",
@@ -4193,12 +4193,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/InfyOmLabs/laravel-generator.git",
-                "reference": "ada9d452f4f67ab59eb91d7c1b269cebb8d7519d"
+                "reference": "6bd9349f2eb9ffe0189b696b13f86062b5f9564c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/laravel-generator/zipball/ada9d452f4f67ab59eb91d7c1b269cebb8d7519d",
-                "reference": "ada9d452f4f67ab59eb91d7c1b269cebb8d7519d",
+                "url": "https://api.github.com/repos/InfyOmLabs/laravel-generator/zipball/6bd9349f2eb9ffe0189b696b13f86062b5f9564c",
+                "reference": "6bd9349f2eb9ffe0189b696b13f86062b5f9564c",
                 "shasum": ""
             },
             "require": {
@@ -4251,7 +4251,7 @@
                 "test",
                 "view"
             ],
-            "time": "2018-07-17T16:26:14+00:00"
+            "time": "2019-02-16T06:03:39+00:00"
         },
         {
             "name": "infyomlabs/routes-explorer",
@@ -4364,27 +4364,26 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v7.15.0",
+            "version": "v8.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "e682ec04c2c618776fbfa103b5ecec6063a7f244"
+                "reference": "7a47985866dd13896a14883038bd1faf40702253"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/e682ec04c2c618776fbfa103b5ecec6063a7f244",
-                "reference": "e682ec04c2c618776fbfa103b5ecec6063a7f244",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/7a47985866dd13896a14883038bd1faf40702253",
+                "reference": "7a47985866dd13896a14883038bd1faf40702253",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0",
-                "symfony/console": "~3.3|~4.0",
-                "symfony/process": "~3.3|~4.0",
-                "symfony/yaml": "~3.3|~4.0"
+                "php": "^7.1",
+                "symfony/console": "~4.0",
+                "symfony/process": "~4.0",
+                "symfony/yaml": "~4.0"
             },
             "require-dev": {
-                "phly/changelog-generator": "^2.2",
-                "phpunit/phpunit": "^5.7 || ^6.0"
+                "phpunit/phpunit": "^6.0"
             },
             "bin": [
                 "bin/homestead"
@@ -4411,7 +4410,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-08-20T18:43:30+00:00"
+            "time": "2019-02-06T01:05:54+00:00"
         },
         {
             "name": "laravelcollective/html",
@@ -6507,8 +6506,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "infyomlabs/laravel-generator": 20,
         "infyomlabs/adminlte-templates": 20,
+        "infyomlabs/laravel-generator": 20,
         "infyomlabs/routes-explorer": 20
     },
     "prefer-stable": false,
