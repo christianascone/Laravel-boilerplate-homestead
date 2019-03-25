@@ -56,7 +56,8 @@ sudo apt-get install -y virtualenv
 Now you can activate the node virtuale environment and install npm dependencies
 ```sh  
 . node-env/bin/activate  
-npm install  
+npm install
+npm run dev
 ```  
 
 ## Configuration
@@ -68,7 +69,7 @@ The first thing we are going to so is set the key that Laravel will use when doi
 
 `php artisan key:generate`
 
-You should see a green message stating your key was successfully generated. As well as you should see the  **APP_KEY** variable in your  **.env**file reflected.
+You should see a green message stating your key was successfully generated. As well as you should see the **APP_KEY** variable in your  **.env** file reflected.
 
 ### Database
 
@@ -89,10 +90,18 @@ You should get a message for each file seeded, you should see the information in
 
 #### Allow postgres connection from host machine (Optional)
 In order to allow you to connect from your machine you can update `pg_hba.conf`.
-```sh sudo nano /etc/postgresql/10/main/pg_hba.conf ``` And add this line
+```sh
+sudo nano /etc/postgresql/10/main/pg_hba.conf
+``` 
+
+And add this line
 `host    all             all             0.0.0.0/0               md5`
-Then restart service with:    
-```sh sudo service postgresql restart ```    
+
+Then restart service with:
+```sh
+sudo service postgresql restart
+```
+
 ## Usage    
 After your project is installed and you can access it in a browser ([http://laravel-boilerplate.com](http://laravel-boilerplate.com)), click the login button on the right of the navigation bar.    
 
